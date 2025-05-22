@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Encabezado y navegación */
+header {
+    background-color: #333;
+    padding: 1em 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    text-align: center;
+    padding: 2em;
+    background-image: url("./imagenes/index.jpg");
+}
+
+main h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: whitesmoke;
+}
+main p{
+    color: whitesmoke;
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+footer ul li {
+    margin: 0.5em 0;
+}
+
+footer a {
+    color: #a0e0ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
