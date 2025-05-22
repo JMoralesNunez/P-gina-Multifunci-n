@@ -40,14 +40,21 @@ main {
     text-align: center;
     padding: 2em;
     background-image: url("./imagenes/index.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main h1 {
-    font-size: 2em;
+    font-size: 8rem;
     margin-bottom: 0.5em;
     color: whitesmoke;
 }
 main p{
+    font-size: 5rem;
+    margin-top: 10px;
     color: whitesmoke;
 }
 
